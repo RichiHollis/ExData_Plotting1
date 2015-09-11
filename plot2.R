@@ -21,7 +21,6 @@ plot2 <- function()
   png(file="plot2.png",width=480,height=480);
   
   ##Make the plot
-  png(file="plot2.png",width=480,height=480)
   plot(as.numeric(Global_active_power)~as.POSIXct(paste(Date,Time),format = "%d/%m/%Y %H:%M:%S"),
        ylab="Global Active Power (kilowatts)", xlab="",
        main="",
